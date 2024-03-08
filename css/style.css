@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header .navbar-li{
+   padding: 0 10px 0;
+}
+header .navbar-li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2C2D3F;
+}
+header .home-dropdown
+{
+    color: black;
+    border: 2px ;
+    border-left: 2px solid ;
+    width: 90%;
+    height: 40px;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+/* end header */
+
+/* start home */
+.home-carousel .carousel-btn
+{
+    width: 40px;
+    height: 40px;
+    transition: 2s ease-out;
+}
+.home-carousel .carousel-btn:hover span
+{
+    background-color:#000000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* end home */
